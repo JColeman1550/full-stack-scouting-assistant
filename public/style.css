@@ -1,0 +1,140 @@
+
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1000px; 
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+  }
+  
+  /* Header styling */
+  h1 {
+    text-align: center;  
+    font-size: 2.5em;
+    color: #007bff;
+    margin: 20px 200px;
+  }
+  
+  /* Styling for the player list */
+  .messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 20px;
+    width: 100%;
+  }
+  
+  .message {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .message span {
+    flex: 1;
+    text-align:center;
+    padding-right: 10px;
+  }
+  
+  .message span i {
+    color: #007bff;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .message span i:hover {
+    color: #0056b3;
+  }
+  
+  /* Styling for the form */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: left; /* Align form elements to the left */
+    width: 100%; /* Full width */
+    max-width: 500px; /* Limit form width */
+    margin: 20px 0px; /* Center form horizontally */
+
+  }
+  
+  form input,
+  form select,
+  form textarea,
+  form button {
+    width: 100%; /* Full width of the container */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1em;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Link styling */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Small styling tweaks */
+  h4 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Logout button */
+  .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ddd;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #bbb;
+  }
+  

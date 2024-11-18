@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Scouting Assistant</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>Scouting Assistant</h1>
+        <ul class="messages">
+  <!------------------------------------------------------------------>
+
+          <% for(var i=0; i < messages.length; i++) { %>
+            <li class="message">
+  <!------------------------------------------------------------------>
+
+              <span>
+                <%= messages[i].name %>
+                <%= messages[i].team %>
+                <%= messages[i].position %>
+                <%= messages[i].hand %>
+                <%= messages[i].notes %>
+              </span>
+  <!------------------------------------------------------------------>
+
+              <span><i class="fa fa-edit" data-id="<%= messages[i].name %>" aria-hidden="true"></i></span>
+              <span><i class="fa fa-trash-o" data-id="<%= messages[i].name %>" aria-hidden="true"></i></span>
+            </li>
+            <% } %>
+        </ul>
+
+        <h4>Add a Player</h4>
+        <% if (user.local.email) { %>
+          <form action="/messages" method="POST">
+            <input type="text" name="name" placeholder="Player name" required>
+            <input type="text" name="team" placeholder="Team" required>
+
+            <select name="hand" id="hand" required>
+              <option>Right</option>
+              <option>Left</option>
+            </select>
+
+            <select name="position" id="position" required>
+              <option value="" disabled selected>Select a position</option>
+              <option value="P">P</option>
+              <option value="C">C</option>
+              <option value="1B">1B</option>
+              <option value="2B">2B</option>
+              <option value="3B">3B</option>
+              <option value="SS">SS</option>
+              <option value="LF">LF</option>
+              <option value="CF">CF</option>
+              <option value="RF">RF</option>
+            </select>
+            <textarea name="notes" placeholder="Notes about the player" rows="4" cols="50"></textarea>
+            <button type="submit">Add Player</button>
+          </form>
+          <div><a href="/logout" class="btn btn-default btn-sm">Logout</a></div>
+          <% } %>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
