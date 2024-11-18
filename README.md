@@ -1,6 +1,6 @@
 # Scouting Assistant
 
-**Scouting Assistant** is a web application for managing baseball player information. It allows users to track players' names, teams, positions, hand preferences, and notes, making it easier for scouts and coaches to organize and evaluate talent.
+**Scouting Assistant** is a web application for managing baseball player information. Its intention is to allow users to track players' names, teams, positions, hand preferences, and notes, making it easier for scouts and coaches to organize and evaluate talent.
 
 ## Features
 
