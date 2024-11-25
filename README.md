@@ -9,13 +9,23 @@
 - **Edit/Delete Players**: Each player entry has options to edit or delete their information.
 - **User Authentication**: Login and logout functionality for secure access to the app.
 
+## Live Application
+
+Check out the live application here: [Scouting Assistant](https://full-stack-scouting-assistant-production.up.railway.app/)
+
+## Image Placeholder
+
+Below is where you can add an image for visualization or further explanation:
+
+![Image Placeholder](#)
+
 ## Technologies Used
 
 - **HTML**: Used for creating the structure of the application.
 - **CSS**: Used for styling the page, including Bootstrap for responsive design.
 - **JavaScript**: Adds interactivity and functionality to the app.
 - **Font Awesome**: Provides icons for editing and deleting players.
-- **Node.js/Express**: Backend for handling server-side logic (assumed to be part of the app).
+- **Node.js/Express**: Backend for handling server-side logic.
 - **Bootstrap**: A front-end framework for responsive layout and design.
 
 ## Setup and Installation
