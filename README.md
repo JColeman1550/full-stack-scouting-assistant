@@ -13,11 +13,7 @@
 
 Check out the live application here: [Scouting Assistant](https://full-stack-scouting-assistant-production.up.railway.app/)
 
-## Image Placeholder
-
-Below is where you can add an image for visualization or further explanation:
-
-![Image Placeholder](#)
+<img src="https://github.com/JColeman1550/full-stack-scouting-assistant/blob/master/Screenshot%202024-11-24%20230430.png?raw=true">
 
 ## Technologies Used
 
